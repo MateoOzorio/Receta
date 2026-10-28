@@ -5,9 +5,12 @@ background-size: cover;
 background-position: center;
 font-size: large;
 text-align: justify;
+
 }
 
-h1 {color: red;}
+h1:hover {color: red;
+background-color: yellow;
+}
 
 .verde {color: green;
 background-color: yellow;
@@ -21,3 +24,36 @@ text-decoration: underline;
 }
 
 .pizza{width: 400px;height: 400px;align-items: center;}
+
+header{ display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+         flex-wrap: wrap;
+        background-color: chocolate;
+        
+}
+.logo{border-radius: 100%; 
+    width: 180px;
+    height: 180px;
+
+}
+
+.whatsapp{border-radius: 100%; 
+    width: 100px;
+    height: 100px;
+}
+    .youtube{border-radius: 100%; 
+    width: 100px;
+    height: 100px;
+ }
+
+ .infodeldesarrollador{
+background-color: red;
+    color: aliceblue;
+ }
+
+footer{ display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+}
